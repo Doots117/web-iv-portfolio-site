@@ -161,10 +161,11 @@ header.boxed .header-margin-mini{
 }
 
 header .logo > a{
+ text-transform: uppercase;
  color:#fff;
  -webkit-text-fill-color: transparent;
  background: -webkit-linear-gradient(transparent, transparent),
-               url(../images/texture_header.png) repeat;
+               url(../images/texture-header.png) repeat;
  background: -o-linear-gradient(transparent, transparent);
  -webkit-background-clip: text;
   font-size:23px;
@@ -240,7 +241,7 @@ CONTENT
   color:#fff;
   -webkit-text-fill-color: transparent;
  background: -webkit-linear-gradient(transparent, transparent),
-              url(../images/texture_text.png) repeat;
+              url(../images/texture-text.png) repeat;
  background: -o-linear-gradient(transparent, transparent);
  -webkit-background-clip: text;
   font-weight:900;
@@ -321,7 +322,7 @@ li.grid-item{
   width:360px;
   height: 100%;
   top:0;
-  background-image:  url(../images/texture_reverse.png);
+  background-image:  url(../images/texture-reverse.png);
   z-index: 2;
   opacity: 0;
   -webkit-transition: all 0.2s ease-in;
@@ -337,25 +338,24 @@ li.grid-item{
 
 .grid-hover h2{
   font-size:15px;
-  bottom:150px;
-  left:40px;
+  bottom:70px;
+  left:20px;
   position:absolute;
   text-transform:uppercase;
   color:#000000;
   letter-spacing:1px;
   font-weight:900;
-  line-height:17px;
 }
 
 .grid-hover p{
   font-size:13px;
   bottom:40px;
-  left:40px;
+  left:20px;
   position:absolute;
   color:#000;
   letter-spacing:1px;
   font-weight:600;
-  line-height:15px;
+  
 }
 
 li.grid-item img{
@@ -449,7 +449,7 @@ footer h3 {
   color:#fff;
   -webkit-text-fill-color: transparent;
  background: -webkit-linear-gradient(transparent, transparent),
-              url(../images/texture_header.png) repeat;
+              url(../images/texture-header.png) repeat;
  background: -o-linear-gradient(transparent, transparent);
  -webkit-background-clip: text;
   font-weight:900;
