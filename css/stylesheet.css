@@ -27,20 +27,6 @@ p{
   font-weight: 400;
 }
 
-a{
-  text-decoration:none;
-  -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in; 
-	border-bottom:1px solid #dedede;
-}
-
-a:focus {
-  outline:none;
-}
-
 strong{
   font-weight:700;
 
