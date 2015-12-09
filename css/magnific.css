@@ -472,7 +472,6 @@ img.mfp-img {
 .mfp-content {
   position: relative;
   display: inline-block;
-  vertical-align: left;
   margin: 0 auto;
   text-align: left;
   z-index: 1045; }
@@ -1046,7 +1045,7 @@ img.mfp-img {
 
 .mfp-wrap {
   top: 0;
-  left: -175;
+  left: -175px;
   width: 100%;
   height: 100%;
   z-index: 1043;
